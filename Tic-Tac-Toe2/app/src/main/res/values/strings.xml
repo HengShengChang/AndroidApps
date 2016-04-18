@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tic-Tac-Toe2</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="computer_text">COMPUTER</string>
+    <string name="player_text">PLAYER</string>
+    <string name="player1_text">PLAYER 1</string>
+    <string name="player2_text">PLAYER 2</string>
+    <string name="draw_text">DRAW</string>
+
+    <string name="computer_first_text">Computer First</string>
+    <string name="player_first_text">Player First</string>
+    <string name="player1_first_text">Player1 First</string>
+    <string name="player2_first_text">Player2 First</string>
+
+    <string name="a_player_text">1 PLAYER</string>
+    <string name="players_text">2 PLAYERS</string>
+
+    <string name="turn_text">T\nU\nR\nN</string>
+    <string name="score_text">S\nC\nO\nR\nE</string>
+    <string name="player1_score_text">0/0</string>
+    <string name="player2_score_text">0/0</string>
+    <string name="draw_score_text">0/0</string>
+
+</resources>

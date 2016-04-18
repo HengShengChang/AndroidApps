@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tic-Tac-Toe2</string>
+    <string name="action_settings">設定</string>
+
+    <string name="computer_text">電腦</string>
+    <string name="player_text">玩家</string>
+    <string name="player1_text">玩家 1</string>
+    <string name="player2_text">玩家 2</string>
+    <string name="draw_text">平手</string>
+
+    <string name="computer_first_text">電腦 先下</string>
+    <string name="player_first_text">玩家 先下</string>
+    <string name="player1_first_text">玩家 1 先下</string>
+    <string name="player2_first_text">玩家 2 先下</string>
+
+    <string name="a_player_text">一名玩家</string>
+    <string name="players_text">兩名玩家</string>
+
+    <string name="turn_text">等\n待</string>
+    <string name="score_text">分\n數</string>
+    <string name="player1_score_text">0/0</string>
+    <string name="player2_score_text">0/0</string>
+    <string name="draw_score_text">0/0</string>
+
+</resources>
