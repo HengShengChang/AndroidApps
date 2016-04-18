@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Roll Calling with Fragment</string>
+    <string name="find_student_text">Search Student</string>
+    <string name="random_text">Random</string>
+    <string name="add_student_text">Add Student</string>
+    <string name="add_project_text">Add Project</string>
+    <string name="profile_picture">profile_picture</string>
+    <string name="student_name">Name</string>
+    <string name="student_department">Department</string>
+
+
+    <string name="title_activity_profile">Profile</string>
+    <string name="edit_text">edit</string>
+    <string name="done_edit_text">Done</string>
+    <string name="notes_text">NOTES</string>
+    <string name="finish_text">Finish</string>
+    <string name="project_name_text">Project Name</string>
+    <string name="due_date_text">Due Date</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+
+
+
+
+</resources>

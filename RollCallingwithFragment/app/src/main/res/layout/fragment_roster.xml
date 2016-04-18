@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#0088A8">
+
+    <ImageView
+        android:id="@+id/title_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roll_calling" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/find_name_editText"
+            android:layout_weight="0.45"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/find_student_text"
+            style="@style/unTyped"/>
+
+        <Space
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/random_button"
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/random_text"
+            style="@style/unTyped"
+            android:onClick="random_onClick" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/students_listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/add_layout"
+            android:background="#fffbfbff"></ListView>
+
+        <LinearLayout
+            android:id="@+id/add_layout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:weightSum="1">
+
+            <Space
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/add_student_button"
+                android:layout_weight="0.35"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/add_student_text"
+                style="@style/unTyped" />
+
+            <Space
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/add_project_button"
+                android:layout_weight="0.35"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/add_project_text"
+                style="@style/unTyped" />
+
+            <Space
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
