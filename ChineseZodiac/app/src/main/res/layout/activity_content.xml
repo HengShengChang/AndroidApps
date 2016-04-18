@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".ContentActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <HorizontalScrollView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:layout_width="@dimen/header_size"
+                    android:layout_height="@dimen/header_size"
+                    android:id="@+id/rat_imageButton"
+                    android:background="@drawable/rat"
+                    android:onClick="go_button_onClick" />
+
+                <ImageButton
+                    android:layout_width="@dimen/header_size"
+                    android:layout_height="@dimen/header_size"
+                    android:id="@+id/ox_imageButton"
+                    android:background="@drawable/ox"
+                    android:onClick="go_button_onClick" />
+
+                <ImageButton
+                    android:layout_width="@dimen/header_size"
+                    android:layout_height="@dimen/header_size"
+                    android:id="@+id/tiger_imageButton"
+                    android:background="@drawable/tiger"
+                    android:onClick="go_button_onClick" />
+
+                <ImageButton
+                    android:layout_width="@dimen/header_size"
+                    android:layout_height="@dimen/header_size"
+                    android:id="@+id/rabbit_imageButton"
+                    android:background="@drawable/rabbit"
+                    android:onClick="go_button_onClick" />
+
+                <ImageView
+                    android:layout_width="@dimen/header_size"
+                    android:layout_height="@dimen/header_size"
+                    android:id="@+id/dragon_imageButton"
+                    android:background="@drawable/dragon"
+                    android:onClick="go_button_onClick" />
+
+                <ImageButton
+                    android:layout_width="@dimen/header_size"
+                    android:layout_height="@dimen/header_size"
+                    android:id="@+id/snake_imageButton"
+                    android:background="@drawable/snake"
+                    android:onClick="go_button_onClick" />
+
+                <ImageButton
+                    android:layout_width="@dimen/header_size"
+                    android:layout_height="@dimen/header_size"
+                    android:id="@+id/horse_imageButton"
+                    android:background="@drawable/horse"
+                    android:onClick="go_button_onClick" />
+
+                <ImageButton
+                    android:layout_width="@dimen/header_size"
+                    android:layout_height="@dimen/header_size"
+                    android:id="@+id/sheep_imageButton"
+                    android:background="@drawable/sheep"
+                    android:onClick="go_button_onClick" />
+
+                <ImageButton
+                    android:layout_width="@dimen/header_size"
+                    android:layout_height="@dimen/header_size"
+                    android:id="@+id/monkey_imageButton"
+                    android:background="@drawable/monkey"
+                    android:onClick="go_button_onClick" />
+
+                <ImageButton
+                    android:layout_width="@dimen/header_size"
+                    android:layout_height="@dimen/header_size"
+                    android:background="@drawable/rooster"
+                    android:id="@+id/rooster_imageButton"
+                    android:onClick="go_button_onClick" />
+
+                <ImageButton
+                    android:layout_width="@dimen/header_size"
+                    android:layout_height="@dimen/header_size"
+                    android:background="@drawable/dog"
+                    android:id="@+id/dog_imageButton"
+                    android:onClick="go_button_onClick" />
+
+                <ImageButton
+                    android:layout_width="@dimen/header_size"
+                    android:layout_height="@dimen/header_size"
+                    android:id="@+id/pig_imageButton"
+                    android:background="@drawable/pig"
+                    android:onClick="go_button_onClick" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/year_editText"
+            android:text="Choose Year"
+            style="@style/unTyped"
+            android:onClick="year_editText_onClick" /> //year_editText
+            />
+
+    </LinearLayout> //header
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/rat_text"
+                        style="@style/Title"
+                        android:id="@+id/zodiac_textView" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:id="@+id/zodiac_imageView"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/rat"/> //zodiac_imageView
+
+                    </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/content_textView"/> //content_textView
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wealth_textView"
+                android:text="財運\n"/> //wealth_textView
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/work_textView"
+                android:text="事業\n"/> //work_textView
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/love_textView"
+                android:text="感情\n"/> //love_textView
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/health_textView"
+                android:text="健康\n"/> //health_textView
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/relationship_textView"
+                android:text="人際\n"/> //relationship_textView
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

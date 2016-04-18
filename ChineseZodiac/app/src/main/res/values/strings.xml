@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chinese Zodiac</string>
+    <string name="zodiac_text">Zodiac :</string>
+    <string name="year_text">Year :</string>
+    <string name="luck_text">This Year LUCK : </string>
+    <string name="go_text">GO</string>
+
+    <string name="rat_text">Rat</string>
+    <string name="ox_text">Ox</string>
+    <string name="tiger_text">Tiger</string>
+    <string name="rabbit_text">Rabbit</string>
+    <string name="dragon_text">Dragon</string>
+    <string name="snake_text">Snake</string>
+    <string name="horse_text">Horse</string>
+    <string name="sheep_text">Sheep</string>
+    <string name="monkey_text">Monkey</string>
+    <string name="rooster_text">Rooster</string>
+    <string name="dog_text">Dog</string>
+    <string name="pig_text">Pig</string>
+
+    <string name="year_2013_text">2013</string>
+    <string name="year_2014_text">2014</string>
+    <string name="year_2015_text">2015</string>
+
+    <string name="great_text">GREAT</string>
+    <string name="good_text">GOOD</string>
+    <string name="fine_text">FINE</string>
+
+
+</resources>
